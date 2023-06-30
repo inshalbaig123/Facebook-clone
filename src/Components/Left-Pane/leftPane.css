@@ -1,0 +1,72 @@
+.leftPane{
+    flex: 2;
+    height: calc(100Vh - 50px);
+    overflow-y: scroll;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: sticky;
+    top: 50px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(224, 234, 241);
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(207, 205, 204);
+}
+
+.leftPainContainer{
+    padding: 20px;
+}
+.leftPainMenu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftPainMenuItem{
+    display: flex;
+    align-items:center;
+    margin-bottom: 20px;
+}
+.leftMenuText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.leftPainIcons{
+    margin-right: 20px;
+}
+
+.pagePic{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.pagesOfwatched{
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    color: rgb(96, 100, 100);
+}
+.PageList{
+    padding: 0;
+    margin: 0;
+}
+
+.pageListItem{
+ display: flex;
+ align-items: center;
+ margin-bottom: 15px;
+ margin-top: 20px;   
+}
+
+.PageName{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
